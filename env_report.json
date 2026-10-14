@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-10-13T20:39:58.648481+00:00",
+  "generated_at_utc": "2026-10-14T19:39:15.245839+00:00",
   "status": "ok",
   "path": "local",
   "python": {
@@ -81,9 +81,11 @@
     "ram_gb": 15.3,
     "docker": {
       "installed": true,
-      "running": true
+      "running": false
     }
   },
   "failures": [],
-  "warnings": []
+  "warnings": [
+    "Docker jest zainstalowany, ale daemon nie działa. Nie blokuje to pierwszych zajęć."
+  ]
 }
